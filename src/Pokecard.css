@@ -10,5 +10,18 @@
 }
 
 .Pokecard:hover {
-    transform: translate(0px, -10px) scale(1.05);;
+    transform: translate(0px, -10px) scale(1.05);
+}
+.Pokecard-image-container {
+    background-color: lightgrey;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.Pokecard-image {
+    transition: 1.25s;
+}
+
+.Pokecard:hover > * .Pokecard-image {
+    transform: translate(0px, -10px) scale(1.25);
 }
